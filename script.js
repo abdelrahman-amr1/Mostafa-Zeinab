@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-    // Target Date: June 25, 2026 at 7:00 PM (19:00)
-    const weddingDate = new Date("June 25, 2026 19:00:00").getTime();
+    // Target Date: June 25, 2026 at 9:00 PM (21:00)
+    const weddingDate = new Date("June 25, 2026 21:00:00").getTime();
     
     // Core Elements
     const welcomeScreen = document.getElementById("welcome-screen");
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Navigation / Copy Elements
     const copyLocationBtn = document.getElementById("copy-location-btn");
-    const mapsLink = "https://share.google/TNvY69yvUidt7mTV6";
+    const mapsLink = "https://maps.app.goo.gl/RYXz7TqTzkAiLFDH8";
 
     // Welcome Screen Transition & Music Trigger
     enterBtn.addEventListener("click", () => {
